@@ -6,7 +6,19 @@ module.exports = {
       "babelConfig": {
         "presets": ["@babel/env", "@babel/react"]
       }
-    }
+    },
+  },
+  collectCoverage: true,
+  collectCoverageFrom: [
+    "**/*.tsx"
+  ],
+  coverageThreshold: {
+    "global": {
+      "branches": 95,
+      "functions": 95,
+      "lines": 95,
+      "statements": 95
+    },
   },
   setupFilesAfterEnv: ["./jest.setup.js"]
 };
