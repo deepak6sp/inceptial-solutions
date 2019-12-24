@@ -10,7 +10,8 @@ module.exports = {
   },
   collectCoverage: true,
   collectCoverageFrom: [
-    "**/*.tsx"
+    "**/*.(ts|tsx)",
+    "!**/index.ts"
   ],
   coverageThreshold: {
     "global": {
