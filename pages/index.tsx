@@ -1,5 +1,4 @@
-import Navigation from "../shared/navigation/Navigation";
-import { NavigationTypes } from '../shared/navigation';
+import { Navigation, NavigationTypes } from "../shared/navigation";
 
 const navItems: NavigationTypes.NavItem[] = [
   {
