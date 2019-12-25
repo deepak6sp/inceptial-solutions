@@ -1,8 +1,23 @@
 import * as React from 'react';
 import Link from "next/link";
-import { NavProps, NavItem } from './types';
+import { NavItem } from './types';
 
-const Navigation: React.FC<NavProps>  = ({ navItems }) => (
+const navItems: NavItem[] = [
+  {
+    name: "Portfolio",
+    url: "/portfolio",
+  },
+  {
+    name: "About",
+    url: "/about"
+  },
+  {
+    name: "Blog",
+    url: "/blog"
+  }
+]
+
+const Navigation: React.FC<{}>  = () => (
   <div className="nav">
     <div className="left">
       <Link href="/">
@@ -29,16 +44,21 @@ const Navigation: React.FC<NavProps>  = ({ navItems }) => (
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 30px;
+        padding: 30px 0px;
+        background: linear-gradient(90deg,#ed5459,#fd561f);
+        opacity: .9;
+        position: fixed;
+        top: 0;
+        width: 100%;
       }
       .left a {
         text-decoration: none;
         text-transform: uppercase;
         font-family: cursive;
         font-weight: bold;
-        color: black;
+        color: white;
+        padding: 10px;
       }
-     
       .right ul {
         display: flex;
         list-style: none;
@@ -52,7 +72,7 @@ const Navigation: React.FC<NavProps>  = ({ navItems }) => (
       .right ul li a {
         text-decoration: none;
         text-transform: uppercase;
-        color: black;
+        color: white;
       }
     `}</style>
   </div>

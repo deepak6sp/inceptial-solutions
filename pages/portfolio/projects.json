@@ -1,0 +1,56 @@
+[{
+    "slug": "adc",
+    "name": "Australian Dental Council",
+    "technologies": ["Bootstrap 4 & SCSS", "PHP - Drupal 8", "Gulp"],
+    "description": "Australian Dental Council (the ADC) - for the dental profession, Dental Board of Australia",
+    "released": "March 2018",
+    "weblink": "https://www.adc.org.au/"
+  }, {
+    "slug": "dhhs",
+    "name": "Child Protection Jobs",
+    "technologies":
+      ["Bootstrap 4 & SCSS", "PHP - Drupal 8", "Gulp"],
+    "description": "Developed website for Department of Health and Human Services - Child Protection Jobs",
+    "released": "Feb 2018",
+    "weblink": "https://childprotectionjobs.dhhs.vic.gov.au/"
+  }, {
+    "slug": "vicpolice",
+		"name": "Victoria Police",
+    "technologies":
+      ["Bootstrap 3 & SCSS", "Jquery", "PHP - Drupal 7 CMS", "Gulp", "Amazon EC2"],
+    "description": "Read the latest and breaking news from Victoria Police",
+    "released": "Sept 2017",
+    "weblink": "https://www.vicpolicenews.com.au"
+	}, {
+    "slug": "mycause",
+    "name": "Mycause",
+    "technologies":
+      ["Bootstrap 3 & SCSS", "React/Flux/Redux", "Codeigniter", "Webpack", "Gulp"],
+    "description": "Australia's #1 online fundraising & crowdfunding site to fundraise or donate to causes that matter to you",
+    "weblink": "https://www.mycause.com.au/"
+  }, {
+    "slug": "mycauseadmin",
+    "name": "Mycause Admin",
+    "technologies":
+      ["Bootstrap 3 & SCSS", "React/Flux/Redux", "Codeigniter", "Webpack", "Gulp"],
+    "description": "Australia's #1 online fundraising & crowdfunding site to fundraise or donate to causes that matter to you",
+    "released": "Sept 2016",
+    "weblink": false
+
+  }, {
+    "slug": "receptionapp",
+    "name": "Reception App",
+    "technologies":
+      ["SCSS", "React/Redux", "Webpack"],
+    "description": "A google chrome app developed at AOPEN to exhibit chromebox and chromebase capabilities.",
+    "released": "June 2017",
+    "weblink": false
+  }, {
+    "slug": "coffeeapp",
+    "name": "Coffee Ordering App",
+    "technologies":
+      ["SCSS", "Angular JS", "Gulp"],
+    "description": "A google chrome app developed at AOPEN to exhibit chromebox and chromebase capabilities.",
+    "weblink": false
+  }
+]
