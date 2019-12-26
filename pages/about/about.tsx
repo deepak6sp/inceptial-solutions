@@ -4,7 +4,10 @@ const About = () => (
   <App>
     <div className='about-me'>
       <h2>ABOUT ME</h2>
-      <p>I am self learner, passionate Full Stack Web Developer having 5 years of experience. Recently, I have been focusing on UX and front end development. I develop with skills of minimal usability designs and using core XHTML/HTML, CSS and Javascript. My coding follows reusable component based structure for easy maintenance, scaling and debugging. I also, have experince using PHP and Node frameworks.</p>
+      <p>I am self learner, passionate Full Stack Web Developer having 8 years of experience in IT domain. 
+        Recently, I have been focusing on UX, front end development and devops. I develop with skills of minimal usability designs and using core XHTML/HTML, CSS and Javascript. 
+        My coding follows reusable component based structure for easy maintenance, scaling and debugging. 
+        I also, have extensive experince using Angular, React, Node and PHP frameworks.</p>
       <Link href='/images/Deepak_Resume.pdf'>
         <a className='button' target='_blank'>Resume</a>
       </Link>
@@ -28,6 +31,10 @@ const About = () => (
               whole application works accross multi browsers and devices.</p>
         </article>
       </div>
+      <p></p>
+      <Link href='/portfolio'>
+        <a className='button'>Projects</a>
+      </Link>
     </div>
     <div className='blog'>
       <h2>BLOG</h2>
