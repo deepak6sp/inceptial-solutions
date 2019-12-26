@@ -50,11 +50,11 @@ const Navigation: React.FC<{}>  = () => (
         position: fixed;
         top: 0;
         width: 100%;
+        z-index: 9999;
       }
       .left a {
         text-decoration: none;
         text-transform: uppercase;
-        font-family: cursive;
         font-weight: bold;
         color: white;
         padding: 10px;

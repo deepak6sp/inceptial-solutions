@@ -7,6 +7,7 @@ const Projects = () => {
     return (
       <>
         <div className="projects">
+          <h2>PROJECTS</h2>
           {
             projects.map((project, index) => {
               return (
@@ -22,11 +23,11 @@ const Projects = () => {
               text-align: center;
             }
             img {
-              min-width: 300px;
-              max-width: 300px;
-              max-height: 200px;
-              min-height: 200px;
-              margin: 50px 50px;
+              min-width: 270px;
+              max-width: 270px;
+              max-height: 180px;
+              min-height: 180px;
+              margin: 45px;
               box-shadow: 10px 10px 10px 0px #ddd;
             }
           `}</style>

@@ -1,4 +1,32 @@
 [{
+  "slug": "buyiteer",
+  "name": "Buyiteer Pty Ltd",
+  "technologies": ["Material design", "Angular 2/6/7 & Nodejs", "Graphql/Prisma", "Webpack"],
+  "description": "Buyiteer is a real-time promotions platform to search for best deals around",
+  "released": "Anticipated 2020",
+  "weblink": "https://buyiteer.com.au/"
+  }, {
+    "slug": "evergreenconnect",
+    "name": "Evergreen connect",
+    "technologies": ["Bootstrap and scss", "core PHP", "Mysql"],
+    "description": "Evergreen connect is one place to find, view and contact wholesale nursery suppliers",
+    "released": "Since 2017",
+    "weblink": "https://evergreenconnect.com.au/"
+  }, {
+    "slug": "covertradie",
+    "name": "CoverTradie",
+    "technologies": ["Wordpress", "Mysql"],
+    "description": "CoverTradie - Tradie insurance sorted within minutes",
+    "released": "Oct 2019",
+    "weblink": "https://www.covertradie.com.au/"
+  }, {
+    "slug": "slimtop",
+    "name": "Slimtop Porcelain Panels",
+    "technologies": ["Wordpress", "Deployed to Wordpress engine"],
+    "description": "Slimtop - for homeowners alike with an incredibly strong, durable, low maintenance, hygienic, UV stable and environmentally friendly surface",
+    "released": "June 2019",
+    "weblink": "https://slimtop.com.au/"
+  }, {
     "slug": "adc",
     "name": "Australian Dental Council",
     "technologies": ["Bootstrap 4 & SCSS", "PHP - Drupal 8", "Gulp"],
