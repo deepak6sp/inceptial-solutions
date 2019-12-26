@@ -1,0 +1,84 @@
+[{
+  "slug": "buyiteer",
+  "name": "Buyiteer Pty Ltd",
+  "technologies": ["Material design", "Angular 2/6/7 & Nodejs", "Graphql/Prisma", "Webpack"],
+  "description": "Buyiteer is a real-time promotions platform to search for best deals around",
+  "released": "Anticipated 2020",
+  "weblink": "https://buyiteer.com.au/"
+  }, {
+    "slug": "evergreenconnect",
+    "name": "Evergreen connect",
+    "technologies": ["Bootstrap and scss", "core PHP", "Mysql"],
+    "description": "Evergreen connect is one place to find, view and contact wholesale nursery suppliers",
+    "released": "Since 2017",
+    "weblink": "https://evergreenconnect.com.au/"
+  }, {
+    "slug": "covertradie",
+    "name": "CoverTradie",
+    "technologies": ["Wordpress", "Mysql"],
+    "description": "CoverTradie - Tradie insurance sorted within minutes",
+    "released": "Oct 2019",
+    "weblink": "https://www.covertradie.com.au/"
+  }, {
+    "slug": "slimtop",
+    "name": "Slimtop Porcelain Panels",
+    "technologies": ["Wordpress", "Deployed to Wordpress engine"],
+    "description": "Slimtop - for homeowners alike with an incredibly strong, durable, low maintenance, hygienic, UV stable and environmentally friendly surface",
+    "released": "June 2019",
+    "weblink": "https://slimtop.com.au/"
+  }, {
+    "slug": "adc",
+    "name": "Australian Dental Council",
+    "technologies": ["Bootstrap 4 & SCSS", "PHP - Drupal 8", "Gulp"],
+    "description": "Australian Dental Council (the ADC) - for the dental profession, Dental Board of Australia",
+    "released": "March 2018",
+    "weblink": "https://www.adc.org.au/"
+  }, {
+    "slug": "dhhs",
+    "name": "Child Protection Jobs",
+    "technologies":
+      ["Bootstrap 4 & SCSS", "PHP - Drupal 8", "Gulp"],
+    "description": "Developed website for Department of Health and Human Services - Child Protection Jobs",
+    "released": "Feb 2018",
+    "weblink": "https://childprotectionjobs.dhhs.vic.gov.au/"
+  }, {
+    "slug": "vicpolice",
+		"name": "Victoria Police",
+    "technologies":
+      ["Bootstrap 3 & SCSS", "Jquery", "PHP - Drupal 7 CMS", "Gulp", "Amazon EC2"],
+    "description": "Read the latest and breaking news from Victoria Police",
+    "released": "Sept 2017",
+    "weblink": "https://www.vicpolicenews.com.au"
+	}, {
+    "slug": "mycause",
+    "name": "Mycause",
+    "technologies":
+      ["Bootstrap 3 & SCSS", "React/Flux/Redux", "Codeigniter", "Webpack", "Gulp"],
+    "description": "Australia's #1 online fundraising & crowdfunding site to fundraise or donate to causes that matter to you",
+    "weblink": "https://www.mycause.com.au/"
+  }, {
+    "slug": "mycauseadmin",
+    "name": "Mycause Admin",
+    "technologies":
+      ["Bootstrap 3 & SCSS", "React/Flux/Redux", "Codeigniter", "Webpack", "Gulp"],
+    "description": "Australia's #1 online fundraising & crowdfunding site to fundraise or donate to causes that matter to you",
+    "released": "Sept 2016",
+    "weblink": false
+
+  }, {
+    "slug": "receptionapp",
+    "name": "Reception App",
+    "technologies":
+      ["SCSS", "React/Redux", "Webpack"],
+    "description": "A google chrome app developed at AOPEN to exhibit chromebox and chromebase capabilities.",
+    "released": "June 2017",
+    "weblink": false
+  }, {
+    "slug": "coffeeapp",
+    "name": "Coffee Ordering App",
+    "technologies":
+      ["SCSS", "Angular JS", "Gulp"],
+    "description": "A google chrome app developed at AOPEN to exhibit chromebox and chromebase capabilities.",
+    "weblink": false
+  }
+]

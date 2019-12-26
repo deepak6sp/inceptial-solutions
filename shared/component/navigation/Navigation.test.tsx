@@ -15,7 +15,7 @@ const navItems = [
 
 describe('Test Navigation component', () => {
   it('should render navigation items', () => {
-    const wrapper = shallow(<Navigation navItems={navItems}/>);
+    const wrapper = shallow(<Navigation />);
     expect(wrapper).toBeDefined();
   });
 });

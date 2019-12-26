@@ -1,25 +1,80 @@
 import * as React from 'react';
 import Link from "next/link";
-import { NavProps, NavItem } from './types';
+import { NavItem } from './types';
 
-const Navigation: React.FC<NavProps>  = ({ navItems }) => (
+const navItems: NavItem[] = [
+  {
+    name: "Portfolio",
+    url: "/portfolio",
+  },
+  {
+    name: "About",
+    url: "/about"
+  },
+  {
+    name: "Blog",
+    url: "/blog"
+  }
+]
+
+const Navigation: React.FC<{}>  = () => (
   <div className="nav">
-    <div className="nav-left">Logo</div>
-    <div className="nav-right">
+    <div className="left">
+      <Link href="/">
+        <a>Inceptial Solutions</a>
+      </Link> 
+    </div>
+    <div className="right">
+      <ul>
       { 
         navItems.map((item: NavItem, index: number) => {
           return  (
-            <ul key={index}>
-              <li>
+              <li key={index}>
                 <Link href={item.url}>
                   <a>{item.name}</a>
                 </Link>
               </li>
-            </ul>
           );
         })
       }
+      </ul>
     </div>
+    <style jsx>{`
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px;
+        background: linear-gradient(90deg,#ed5459,#fd561f);
+        opacity: .9;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+      }
+      .left a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        padding: 10px;
+      }
+      .right ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+      }
+      .right ul li {
+        padding: 10px;
+      }
+      .right ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+      }
+    `}</style>
   </div>
 );
 
