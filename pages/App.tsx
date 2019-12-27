@@ -1,4 +1,5 @@
-import { Navigation, NavigationTypes } from "../shared/component/navigation";
+import { Navigation } from '../shared/component/navigation';
+import Footer from '../shared/component/footer';
 import Portfolio from './portfolio';
 
 const App = (props) => (
@@ -6,9 +7,10 @@ const App = (props) => (
     {props.children && 
       <>
         <Navigation />
-        <div className='main'>
+        <main className='main'>
           {props.children}
-        </div>
+        </main>
+        <Footer />
       </>
     }
     {!props.children && <Portfolio/>}
@@ -20,6 +22,7 @@ const App = (props) => (
         clear: both;
         max-width: 1100px;
         margin: 150px auto;
+        min-height: calc(100vh - 380px);
       }
       h2 {
         font-family: "Raleway-Regular";
