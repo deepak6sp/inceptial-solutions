@@ -11,9 +11,21 @@ const Projects = () => {
         <div className="projects">
           <h2>PROJECTS</h2>
           <div className='categories'>
-            <li onClick={() => setActiveType('type-all')}>All</li>
-            <li onClick={() => setActiveType('type-js')}>Javascript</li>
-            <li onClick={() => setActiveType('type-php')}>Php</li>
+            <li 
+              className={(activeType == 'type-all') ? 'active': ''} 
+              onClick={() => setActiveType('type-all')}>
+                All
+            </li>
+            <li 
+              className={(activeType == 'type-js') ? 'active': ''}
+              onClick={() => setActiveType('type-js')}>
+                Javascript
+            </li>
+            <li 
+              className={(activeType == 'type-php') ? 'active': ''} 
+              onClick={() => setActiveType('type-php')}>
+                Php
+            </li>
           </div>
           <ul>
           {
@@ -52,6 +64,9 @@ const Projects = () => {
               max-width: 33.33%;
               flex: 0 0 33.33%;
               list-style-type: none;
+              min-width: 270px;
+              max-width: 270px;
+              margin: auto;
             }
             .projects ul li a {
               display: block;
@@ -64,8 +79,6 @@ const Projects = () => {
             img {
               width: 100%;
               box-shadow: 10px 10px 10px 0px #ddd;
-              min-width: 270px;
-              max-width: 270px;
               max-height: 180px;
               min-height: 180px;
             }
@@ -78,10 +91,10 @@ const Projects = () => {
             .categories {
               margin: 50px;
               display: flex;
+              justify-content: center;
             }
             .categories li {
               list-style-type: none;
-              background: #253b49;
               width: 100px;
               padding: 10px;
               min-width: 120px;
@@ -93,11 +106,29 @@ const Projects = () => {
               text-transform: uppercase;
               font-family: 'Montserrat-Regular';
               font-size: 14px;
-            }
-            .categories li:hover {
               background: white;
               border: 1px solid #253b49;
               color: #253b49;
+            }
+            .categories li:hover {
+              border: 1px solid #253b49;
+              color: white;
+              background: #253b49;
+            }
+            .categories .active {
+              background: #253b49;
+              color: white;
+            }
+            .categories .active:hover {
+              color: white;
+            }
+            @media(max-width: 768px) {
+              .categories {
+                display: none;
+              }
+              .projects ul {
+                flex-direction: column;
+              }
             }
           `}</style>
       </>

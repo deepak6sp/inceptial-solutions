@@ -15,6 +15,11 @@ const App = (props) => (
     }
     {!props.children && <Portfolio/>}
     <style jsx global>{`
+      @media(max-width: 768px) {
+        .main {
+          padding: 10px;
+        }
+      }
       body {
         margin: 0;
       }
@@ -22,6 +27,7 @@ const App = (props) => (
         clear: both;
         max-width: 1100px;
         margin: 150px auto;
+        padding: 20px;
         min-height: calc(100vh - 380px);
       }
       h2 {

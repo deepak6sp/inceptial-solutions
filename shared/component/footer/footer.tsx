@@ -8,16 +8,18 @@ const Footer = () => (
         position: absolute;
         width: 100%;
         color: white;
+        text-align: center;
       }
-      footer .left {
-        float: left;
-        padding: 10px;
+      @media(min-width: 768px) {
+        footer .left {
+          float: left;
+          padding: 10px;
+        }
+        footer .right {
+          float: right;
+          padding: 10px;
+        }
       }
-      footer .right {
-        float: right;
-        padding: 10px;
-      }
-
     `}</style>
   </footer>
 );

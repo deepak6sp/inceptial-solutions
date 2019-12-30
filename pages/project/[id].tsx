@@ -86,7 +86,6 @@ const Project: React.FC<void> = () => {
           margin-top: 100px;
           width: 100%;
           box-shadow: 0 0 10px #253b49;
-          border: 0.5em solid #fff;
           border-radius: 10px;
         }
         .project-name {
@@ -103,6 +102,15 @@ const Project: React.FC<void> = () => {
           display: block;
           margin-bottom: 10px;
           margin-top: 30px;
+        }
+        @media(max-width: 768px) {
+          .project-details {
+            flex-direction: column;
+            flex-flow: wrap;
+          }
+          .project-details .right {
+            margin: 100px auto;
+          }
         }
 
       `}</style>
