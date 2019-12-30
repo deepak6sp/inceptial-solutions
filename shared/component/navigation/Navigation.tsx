@@ -75,6 +75,15 @@ const Navigation: React.FC<{}>  = () => (
           text-transform: uppercase;
           color: white;
         }
+        @media(max-width: 768px) {
+          .nav {
+            flex-direction: column;
+            padding: 30px 0px 15px;
+          }
+          .right{
+            margin-top: 15px;
+          }
+        }
       `}</style>
     </nav>
   </header>

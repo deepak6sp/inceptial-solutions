@@ -55,8 +55,8 @@ const About = () => (
        </p>
     </div>
     <style jsx>{`
-      .about-me, .things, .blog, .contact {
-        margin-top: 80px;
+      .things, .blog, .contact {
+        margin-top: 100px;
       }
       h2:after {
         content: '';
@@ -79,6 +79,16 @@ const About = () => (
       .contact a {
         text-decoration: none;
         color: #fd561f;
+      }
+      @media(max-width: 768px) {
+        .panels {
+          flex-direction: column;
+          flex-flow: wrap;
+        }
+        .panels article {
+          width: 100%;
+          margin-bottom: 20px;
+        }
       }
     `}</style>
   </App>
