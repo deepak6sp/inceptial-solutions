@@ -46,7 +46,7 @@ const Navigation: React.FC<{}>  = () => (
           justify-content: space-between;
           align-items: center;
           padding: 30px 0px;
-          background: linear-gradient(90deg,#ed5459,#fd561f);
+          background: linear-gradient(180deg,#ed5459,#fd561f);
           opacity: .9;
           position: fixed;
           top: 0;
@@ -74,6 +74,7 @@ const Navigation: React.FC<{}>  = () => (
           text-decoration: none;
           text-transform: uppercase;
           color: white;
+          font-family: 'Montserrat-Regular';
         }
         @media(max-width: 768px) {
           .nav {

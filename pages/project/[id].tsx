@@ -11,7 +11,7 @@ const Project: React.FC<void> = () => {
       <>
         <div>
           <Link href='/'>
-            <a className='back-button'><span className='fa-arrow-left'></span>&nbsp;Back</a>
+            <a className='back-button'><span className='fa fa-arrow-left'></span>&nbsp;Back</a>
           </Link> 
         </div>
         {
