@@ -74,6 +74,19 @@ const App = (props) => (
         color: #fd561f;
         font-family: Montserrat-Regular,sans-serif;
       }
+      .red-background {
+        background: linear-gradient(90deg,#ed5459,#fd561f);
+      }
+      .red-background .button {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+      }
+      .red-background .button:hover {
+        background: white;
+        border: 2px solid #fd561f;
+        color: #fd561f;
+      }
       @font-face {
         font-family: "Montserrat-Regular";
         src: url("/fonts/montserrat/Montserrat-Regular.ttf") format("ttf"),
@@ -123,6 +136,11 @@ const App = (props) => (
         font-family: 'FontAwesome';
         content: "\F0E1";
       }
+      .fa-map-marker:before {
+        font-family: 'FontAwesome';
+        content: "\F041";
+      }
+      
     `}</style>
   </>
 );
