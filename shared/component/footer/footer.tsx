@@ -4,7 +4,7 @@ const Footer = () => (
     <p className='right'> Designed & developed by Deepak Prakash</p>
     <style jsx>{`
       footer {
-        background: #fd561f;
+        background: #253b49;
         position: absolute;
         width: 100%;
         color: white;

@@ -74,6 +74,22 @@ const App = (props) => (
         color: #fd561f;
         font-family: Montserrat-Regular,sans-serif;
       }
+      .red-background {
+        background: linear-gradient(90deg,#ed5459,#fd561f);
+      }
+      .blue-background {
+        background: #253b49;
+      }
+      .blue-background .button {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+      }
+      .blue-background .button:hover {
+        background: white;
+        border: 2px solid #253b49;
+        color: #253b49;
+      }
       @font-face {
         font-family: "Montserrat-Regular";
         src: url("/fonts/montserrat/Montserrat-Regular.ttf") format("ttf"),
@@ -115,13 +131,53 @@ const App = (props) => (
         font-weight: normal;
         font-style: normal;
       }
-      .fa-arrow-left:before {
+      .fa {
         font-family: 'FontAwesome';
-        content: "\f177";
+      }
+      .fa-arrow-left:before {
+        content: '\F177';
       }
       .fa-linkedin:before {
-        font-family: 'FontAwesome';
-        content: "\F0E1";
+        content: '\F0E1';
+      }
+      .fa-map-marker:before {
+        content: '\F041';
+      }
+      .fa-user-circle-o:before {
+        content: '\F2BE';
+      }
+      .fa-codepen:before {
+        content: '\F1CB';
+      }
+      .fa-pencil:before {
+        content: '\F040';
+      }
+      .fa-address-book:before {
+        content: '\F2BA';
+      }
+      .fa-empire:before {
+        content: '\F1D1';
+      }
+      .fa-code:before {
+        content: '\F121';
+      }
+      .fa-tablet:before {
+        content: '\F10A';
+      }
+      .fa-desktop:before {
+        content: '\F108';
+      }
+      .fa-mobile:before {
+        content: '\F10B';
+      }
+      .fa-ship:before {
+        content: '\F21a';
+      }
+      .fa-seo:before {
+        content: '\F002';
+      }
+      .fa-support:before {
+        content: '\F145';
       }
     `}</style>
   </>

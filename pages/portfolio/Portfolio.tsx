@@ -9,6 +9,7 @@ const Projects = () => {
     return (
       <>
         <div className="projects">
+          <span className="fa fa-codepen"></span>
           <h2>PROJECTS</h2>
           <div className='categories'>
             <li 
@@ -54,6 +55,13 @@ const Projects = () => {
         <style jsx>{`
             .projects {
               text-align: center;
+            }
+            .projects .fa-codepen {
+              text-align: center;
+              display: block;
+              font-size: 30px;
+              color: #fd561f;
+              margin-bottom: 30px;
             }
             .projects ul {
               display: flex;
