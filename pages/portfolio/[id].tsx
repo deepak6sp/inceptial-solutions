@@ -10,7 +10,7 @@ const Project: React.FC<void> = () => {
     <App>
       <>
         <div>
-          <Link href='/'>
+          <Link href='/portfolio'>
             <a className='back-button'><span className='fa fa-arrow-left'></span>&nbsp;Back</a>
           </Link> 
         </div>
