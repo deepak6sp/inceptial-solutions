@@ -11,13 +11,13 @@
     "name": "Evergreen connect",
     "technologies": ["Bootstrap and scss", "core PHP", "Mysql"],
     "description": "Evergreen connect is one place to find, view and contact wholesale nursery suppliers",
-    "released": "Since 2017",
+    "released": "joined project since Sep 2018",
     "weblink": "https://evergreenconnect.com.au/",
     "type": "php"
   }, {
     "slug": "covertradie",
     "name": "Cover Tradie",
-    "technologies": ["Wordpress", "Mysql"],
+    "technologies": ["Customised PHP modules", "Wordpress", "Mysql"],
     "description": "CoverTradie - Tradie insurance sorted within minutes",
     "released": "Oct 2019",
     "weblink": "https://www.covertradie.com.au/",

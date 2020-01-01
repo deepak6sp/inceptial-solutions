@@ -7,9 +7,8 @@ const About = () => (
       <h3>A bit about me</h3>
       <h6>Deepak Prakash 
         <br/>
-        <span className="fa fa-map-marker fa-lg">
-          &nbsp;&nbsp;Melbourne,&nbsp; Australia
-        </span> 
+        <span className="fa fa-map-marker fa-lg"></span> 
+        <span>&nbsp;&nbsp;Melbourne,&nbsp; Australia</span>
       </h6>
     </section>
     <div className='about-wrapper'>
@@ -17,7 +16,7 @@ const About = () => (
         <span className="fa fa-user-circle-o"></span>
         <h2>ABOUT ME</h2>
         <p>I am self learner, passionate Full Stack Web Developer having 8 years of experience in IT domain. 
-          Recently, I have been focusing on UX, front end development and devops. I develop with skills of minimal usability designs and using core XHTML/HTML, CSS and Javascript. 
+          I develop with skills of minimal usability designs and using core XHTML/HTML, CSS and Javascript. 
           My coding follows reusable component based structure for easy maintenance, scaling and debugging. 
           I also, have extensive experince using Angular, React, Node and PHP frameworks.</p>
         <Link href='/images/Deepak_Resume.pdf'>
@@ -33,7 +32,7 @@ const About = () => (
               <span className='fa fa-empire'></span>
               <h6> Prototyping </h6>
               <p> I use my favourite <strong>Sketch App</strong> for prototyping and wireframe,
-                  and proficiently convert them to complete web solutions.</p>
+                  and proficiently convert them to complete web solutions. Unfortunately, I don't design things.</p>
             </article>
             <article>
               <span className='fa fa-code'></span>
@@ -60,7 +59,7 @@ const About = () => (
             <article>
               <span className='fa fa-seo'></span>
               <h6> SEO </h6>
-              <p> I will finally make sure your website appears on google search using SEO techniques such as google analytics and tag manager. Unfortunately, I don't do marketing such as facebook campaign.</p>
+              <p> I will finally make sure your website appears on google search using SEO techniques such as google analytics and tag manager. Unfortunately, I do not do website marketing such as facebook campaign.</p>
             </article>
             <article>
               <span className='fa fa-support'></span>
@@ -77,7 +76,7 @@ const About = () => (
       <div className='blog'>
         <span className="fa fa-pencil"></span>
         <h2>BLOG</h2>
-        <p> I started blogging to share my knowledge and expericence focusing on modern design trends and latest web development technologies.</p>
+        <p> I started blogging to share my knowledge and expericence, focusing on modern UX trends and latest web development technologies.</p>
         <Link href='/blog'>
           <a className='button'>My blog</a>
         </Link>
@@ -85,7 +84,7 @@ const About = () => (
       <div className='contact red-background'>
         <span className="fa fa-address-book"></span>
         <h2>Contact</h2>
-        <p> Sorry, I am currently not accepting any projects. However, if you like to keep in touch, 
+        <p> Sorry, I am currently not accepting any projects at the moment. However, if you like to keep in touch, 
           please feel free to connect with me on &nbsp;
           <Link href='https://www.linkedin.com/in/deepak-prakash-a1bb2825/'>
             <a target='_blank'>
@@ -147,7 +146,7 @@ const About = () => (
         text-align: center;
         display: block;
         font-size: 30px;
-        color: #fd561f;
+        color: #253b49;
         margin: 30px;
       }
       .things .fa-codepen, .contact .fa-address-book {
@@ -179,7 +178,7 @@ const About = () => (
         content: '';
         display: block;
         width: 50px;
-        border: 1px solid #fd561f;
+        border: 1px solid #253b49;
         margin-top: 10px;
       }
       .panels {
@@ -210,7 +209,7 @@ const About = () => (
         box-shadow: 0 0 10px white;
         width: 30px;
         height: 30px;
-        line-height: 27px;
+        line-height: 30px;
         text-align: center;
         display: inline-block;
         border-radius: 50%;
@@ -218,7 +217,7 @@ const About = () => (
       }
       .contact a:hover {
         color: #fd561f;
-        transform: scale(.9);
+        transform: scale(1);
         border: .1rem solid #fd561f;
         box-shadow: 0 0 10px #fd561f;
       }

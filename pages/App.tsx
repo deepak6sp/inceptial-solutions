@@ -33,7 +33,7 @@ const App = (props) => (
       h2 {
         font-family: "Raleway-Regular";
         font-size: 30px;
-        color: #fd561f;
+        color: #253b49;
         text-transform: uppercase;
       }
       h6 {
@@ -57,21 +57,21 @@ const App = (props) => (
         font-family: Montserrat-Regular,sans-serif;
         text-transform: lowercase;
         border-radius: 50px;
-        border: 2px solid #fd561f;
-        color: #fd561f;
+        border: 2px solid #253b49;
+        color: #253b49;
         background: #fff;
         transition: all .2s ease-in;
         text-decoration: none;
       }
       .button:hover {
         border: 2px solid transparent;
-        background: #fd561f;
+        background: #253b49;
         color: white;
       }
       .back-button {
         text-decoration: none;
         text-transform: lowercase;
-        color: #fd561f;
+        color: #253b49;
         font-family: Montserrat-Regular,sans-serif;
       }
       .red-background {
