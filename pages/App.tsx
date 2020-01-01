@@ -28,7 +28,7 @@ const App = (props) => (
         max-width: 1100px;
         margin: 150px auto;
         padding: 20px;
-        min-height: calc(100vh - 380px);
+        min-height: calc(100vh - 420px);
       }
       h2 {
         font-family: "Raleway-Regular";

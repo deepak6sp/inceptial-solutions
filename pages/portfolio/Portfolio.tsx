@@ -37,7 +37,7 @@ const Projects = () => {
               }
               return (
                 <li key={index} className={activeClass}>
-                  <Link href="/project/[id]" as={`/project/${project.slug}`}>
+                  <Link href="/portfolio/[id]" as={`/portfolio/${project.slug}`}>
                     <a>
                       <img src={`/images/${project.slug}-desktop.png`} />
                       <h4>{project.name}</h4>
