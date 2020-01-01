@@ -4,7 +4,7 @@ const About = () => (
   <App>
     <section className='about-header'>
       <div className="overlay"></div>
-      <h3>A bit about me</h3>
+      <h1>A bit about me</h1>
       <h6>Deepak Prakash 
         <br/>
         <span className="fa fa-map-marker fa-lg"></span> 
@@ -117,12 +117,10 @@ const About = () => (
         opacity: .7;
         z-index: -1;
       }
-      .about-header h3 {
+      .about-header h1 {
         color: white;
         text-align: center;
         margin-top: 150px;
-        font-size: 45px;
-        font-family: 'Montserrat-Thin';
       }
       .about-header h6 {
         color: white;
@@ -237,9 +235,6 @@ const About = () => (
         .panels article {
           width: 100%;
           margin-bottom: 20px;
-        }
-        .about-header h3 {
-          font-size: 30px;
         }
         .about-header h6 {
           font-size: 22px;

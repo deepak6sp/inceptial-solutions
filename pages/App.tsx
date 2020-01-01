@@ -1,11 +1,14 @@
 import { Navigation } from '../shared/component/navigation';
 import Footer from '../shared/component/footer';
 import Portfolio from './portfolio';
+import Header from '../shared/component/header';
+
 
 const App = (props) => (
   <>
     {props.children && 
       <>
+        <Header />
         <Navigation />
         <main className='main'>
           {props.children}
@@ -29,6 +32,12 @@ const App = (props) => (
         margin: 150px auto;
         padding: 20px;
         min-height: calc(100vh - 420px);
+      }
+      h1 {
+        font-family: "Raleway-Regular";
+        font-size: 34px;
+        color: #253b49;
+        text-transform: uppercase;
       }
       h2 {
         font-family: "Raleway-Regular";

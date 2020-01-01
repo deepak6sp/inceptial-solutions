@@ -24,7 +24,7 @@ const Navigation: React.FC<{}>  = () => {
     <header>
       <nav className="nav">
         <div className="left">
-          <Link href="/portfolio">
+          <Link href="/">
             <a>Inceptial Solutions</a>
           </Link> 
         </div>

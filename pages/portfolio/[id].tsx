@@ -38,12 +38,12 @@ const Project: React.FC<void> = () => {
                 }
               </div>
               <div className='right'>
-                <img className='image-mobile' src={`/images/${project.slug}-mobile.png`} />
-                <img className='image-pad' src={`/images/${project.slug}-pad.png`} />
+                <img className='image-mobile' src={`/images/${project.slug}-mobile.png`} alt={project.slug}/>
+                <img className='image-pad' src={`/images/${project.slug}-pad.png`} alt={project.slug}/>
               </div>
             </div>
             <div className='image-wrapper'>
-              <img className='image-desktop' src={`/images/${project.slug}-desktop.png`} />
+              <img className='image-desktop' src={`/images/${project.slug}-desktop.png`} alt={project.slug}/>
             </div>
           </>
         }

@@ -7,8 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "deploy": "npm run export && firebase deploy",
+    "deploy": "npx now --prod",
     "test": "jest"
   },
   "keywords": [],
