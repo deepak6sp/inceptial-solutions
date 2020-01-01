@@ -10,7 +10,7 @@ const Projects = () => {
       <>
         <div className="projects">
           <span className="fa fa-codepen"></span>
-          <h2>PROJECTS</h2>
+          <h1>PROJECTS</h1>
           <div className='categories'>
             <li 
               className={(activeType == 'type-all') ? 'active': ''} 
@@ -39,7 +39,7 @@ const Projects = () => {
                 <li key={index} className={activeClass}>
                   <Link href="/portfolio/[id]" as={`/portfolio/${project.slug}`}>
                     <a>
-                      <img src={`/images/${project.slug}-desktop.png`} />
+                      <img src={`/images/${project.slug}-desktop.png`} alt={project.slug}/>
                       <h4>{project.name}</h4>
                     </a>
                   </Link>
