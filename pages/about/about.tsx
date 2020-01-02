@@ -15,8 +15,8 @@ const About = () => (
       <div className='about-me'>
         <span className="fa fa-user-circle-o"></span>
         <h2>ABOUT ME</h2>
-        <p>I am self learner, passionate Full Stack Web Developer having 8 years of experience in IT domain. 
-          I develop with skills of minimal usability designs and using core XHTML/HTML, CSS and Javascript. 
+        <p>I am a self learner, passionate Full Stack Web Developer having 8 years of experience in IT domain. 
+          I develop websites with skills of minimal usability designs and using core XHTML/HTML, CSS and Javascript. 
           My coding follows reusable component based structure for easy maintenance, scaling and debugging. 
           I also, have extensive experince using Angular, React, Node and PHP frameworks.</p>
         <Link href='/images/Deepak_Resume.pdf'>
