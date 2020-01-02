@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "npx now --prod",
+    "deploy": "npm run build && npx now --prod",
     "test": "jest"
   },
   "keywords": [],

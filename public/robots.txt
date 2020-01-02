@@ -1,3 +1,4 @@
+Sitemap: https://inceptialsolutions.com/sitemap.xml
 User-agent: *
 
 Disallow: /images/
