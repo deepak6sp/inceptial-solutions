@@ -1,0 +1,19 @@
+[{
+  "slug": "docker-commands",
+  "title": "Basic Docker Commands",
+  "description": "To demonstrate basic docker commands, I will be using nginx container from docker hub.",
+  "date": "Dec 20, 2019",
+  "category": "Devops"
+}, {
+  "slug": "reinstall-jenkins-plugins",
+  "title": "How to reinstall a jenkins plugin",
+  "description": "Jenkins is one of the widely used and popular CI/CD software. When I started using Jenkins, I found that uninstalling a plugin was a tedious task. So, if you are having hard time to reinstall an unwanted plugin from Jenkins, follow these simple steps.",
+  "date": "Dec 20, 2019",
+  "category": "Devops"
+}, {
+  "slug": "show-git-branch-name",
+  "title": "Show git branch name on the bash command prompt",
+  "description": "Configure bash profile to show git branch name on the bash command prompt",
+  "date": "Dec 20, 2019",
+  "category": "Devops"
+}]

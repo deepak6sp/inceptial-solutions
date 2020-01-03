@@ -1,7 +1,9 @@
 import App from '../App';
 import Link from 'next/link';
 const About = () => (
-  <App>
+  <App 
+    title="About inceptial solutions and director deepak prakash"
+    description="I am a self learner, passionate Full Stack Web Developer having 8 years of experience in IT domain">
     <section className='about-header'>
       <div className="overlay"></div>
       <h1>A bit about me</h1>

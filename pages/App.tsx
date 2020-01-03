@@ -8,7 +8,7 @@ const App = (props) => (
   <>
     {props.children && 
       <>
-        <Header />
+        <Header {...props}/>
         <Navigation />
         <main className='main'>
           {props.children}
