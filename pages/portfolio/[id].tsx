@@ -7,7 +7,7 @@ const Project: React.FC<void> = () => {
   const router = useRouter();
   const project = projects.filter(project => project.slug === router.query.id)[0];
   return (
-    <App title={project.name} description={project.description}>
+    <App title={router.query.id && project.name} description={router.query.id && project.description}>
       <>
         <div>
           <Link href='/portfolio'>
