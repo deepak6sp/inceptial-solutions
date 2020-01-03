@@ -1,13 +1,11 @@
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 
-const Header = () => {
-  const router = useRouter();
+const Header = (props) => {
   return (
     <Head>
-      <title> Inceptial Solutions {router.pathname.replace('/', '')}</title>
+      <title> Inceptial Solutions { props.title }</title>
       <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-      <meta name="description" content="Melbourne based software & web Development company serving small scale industries. Full stack development including deployment, seo and support."></meta>
+      <meta name="description" content={ props.description }></meta>
     </Head>
   );
 }

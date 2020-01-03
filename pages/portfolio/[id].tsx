@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import App from '../App';
-import projects from '../portfolio/projects.json';
+import projects from './projects.json';
 
 const Project: React.FC<void> = () => {
   const router = useRouter();
   const project = projects.filter(project => project.slug === router.query.id)[0];
   return (
-    <App>
+    <App title={project.name} description={project.description}>
       <>
         <div>
           <Link href='/portfolio'>

@@ -144,7 +144,7 @@ const Projects = () => {
 };
 
 const Portfolio = () => (
-  <App>
+  <App title="portfolio" description="Melbourne based software & web Development company serving small scale industries. Full stack development including deployment, seo and support.">
     <Projects />
   </App>
 );
