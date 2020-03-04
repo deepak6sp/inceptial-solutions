@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Link from "next/link";
+import theme from '../../utils/theme';
 import { useRouter } from 'next/router';
 import { NavItem } from './types';
 
@@ -44,7 +45,7 @@ const Navigation: React.FC<{}>  = () => {
           .nav a {
             font-family: 'Montserrat-Regular';
             letter-spacing: 2.5px;
-            color: #253b49;
+            color: ${theme.colors.blue};
           }
           .nav {
             display: flex;
@@ -52,7 +53,7 @@ const Navigation: React.FC<{}>  = () => {
             align-items: center;
             padding: 30px 0px;
             // border: 1px solid linear-gradient(180deg,#ed5459,#fd561f);
-            box-shadow: 0px 0px 10px 1px #253b49;
+            box-shadow: 0px 0px 10px 1px ${theme.colors.blue};
             opacity: .9;
             position: fixed;
             top: 0;
@@ -61,7 +62,7 @@ const Navigation: React.FC<{}>  = () => {
             background: white;
           }
           .nav .active {
-            background: #253b49;
+            background: ${theme.colors.blue};
             padding: 5px;
           }
           .nav .active a {

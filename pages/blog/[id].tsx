@@ -3,6 +3,7 @@ import Link from 'next/link';
 import App from '../App';
 import blogPosts from './blog.json';
 import { Markdown } from 'react-markdown-reader';
+import theme from '../../shared/utils/theme';
 
 const BlogPost: React.FC<void> = () => {
   const router = useRouter();
@@ -36,7 +37,7 @@ const BlogPost: React.FC<void> = () => {
         font-size: 18px;
       }
       .markdown pre {
-        background: #404040;
+        background: ${theme.colors.blue};
         color: white;
         padding: 20px;
         line-height: 20px;

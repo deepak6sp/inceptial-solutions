@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import theme from '../../shared/utils/theme';
 import App from '../App';
 import projects from './projects.json';
 
@@ -80,7 +81,7 @@ const Projects = () => {
               display: block;
               padding: 20px;
               text-decoration: none;
-              color: #253b49;
+              color: ${theme.colors.blue};
               text-transform: uppercase;
               font-family: 'Montserrat-Regular';
             }
@@ -115,16 +116,16 @@ const Projects = () => {
               font-family: 'Montserrat-Regular';
               font-size: 14px;
               background: white;
-              border: 1px solid #253b49;
-              color: #253b49;
+              border: 1px solid ${theme.colors.blue};
+              color: ${theme.colors.blue};
             }
             .categories li:hover {
-              border: 1px solid #253b49;
+              border: 1px solid ${theme.colors.blue};
               color: white;
-              background: #253b49;
+              background: ${theme.colors.blue};
             }
             .categories .active {
-              background: #253b49;
+              background: ${theme.colors.blue};
               color: white;
             }
             .categories .active:hover {

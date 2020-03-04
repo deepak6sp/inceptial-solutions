@@ -1,5 +1,6 @@
 import App from '../App';
 import Link from 'next/link';
+import theme from '../../shared/utils/theme'
 const About = () => (
   <App 
     title="About inceptial solutions and director deepak prakash"
@@ -135,7 +136,7 @@ const About = () => (
       }
       .about-wrapper {
         margin-top: 200px;
-        box-shadow: 0 0 10px #253b49;
+        box-shadow: 0 0 10px ${theme.colors.blue};
         background: white;
         border-radius: 5px;
       }
@@ -146,7 +147,7 @@ const About = () => (
         text-align: center;
         display: block;
         font-size: 30px;
-        color: #253b49;
+        color: ${theme.colors.blue};
         margin: 30px;
       }
       .things .fa-codepen, .contact .fa-address-book {
@@ -178,7 +179,7 @@ const About = () => (
         content: '';
         display: block;
         width: 50px;
-        border: 1px solid #253b49;
+        border: 1px solid ${theme.colors.blue};
         margin-top: 10px;
       }
       .panels {
@@ -198,7 +199,7 @@ const About = () => (
         padding: 10px;
       }
       .contact {
-        background: #253b49;
+        background: ${theme.colors.blue};
         color: white;
       }
       .contact a {

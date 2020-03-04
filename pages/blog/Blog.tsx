@@ -1,6 +1,7 @@
 import App from '../App';
 import Link from 'next/link';
 import blogPosts from './blog.json';
+import theme from '../../shared/utils/theme';
 
 const Blog = () => (
   <App title="blog" description="inceptial solutions blog articles">
@@ -41,7 +42,7 @@ const Blog = () => (
       }
       li span {
         display: block;
-        color: #253b49;
+        color: ${theme.colors.blue};
       }
       li span.title {
         font-size: 25px;

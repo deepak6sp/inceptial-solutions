@@ -2,6 +2,7 @@ import { Navigation } from '../shared/component/navigation';
 import Footer from '../shared/component/footer';
 import Portfolio from './portfolio';
 import Header from '../shared/component/header';
+import theme from '../shared/utils/theme';
 
 
 const App = (props) => (
@@ -36,13 +37,13 @@ const App = (props) => (
       h1 {
         font-family: "Raleway-Regular";
         font-size: 34px;
-        color: #253b49;
+        color: ${theme.colors.blue};
         text-transform: uppercase;
       }
       h2 {
         font-family: "Raleway-Regular";
         font-size: 30px;
-        color: #253b49;
+        color: ${theme.colors.blue};
         text-transform: uppercase;
       }
       h6 {
@@ -66,28 +67,28 @@ const App = (props) => (
         font-family: Montserrat-Regular,sans-serif;
         text-transform: lowercase;
         border-radius: 50px;
-        border: 2px solid #253b49;
-        color: #253b49;
+        border: 2px solid ${theme.colors.blue};
+        color: ${theme.colors.blue};
         background: #fff;
         transition: all .2s ease-in;
         text-decoration: none;
       }
       .button:hover {
         border: 2px solid transparent;
-        background: #253b49;
+        background: ${theme.colors.blue};
         color: white;
       }
       .back-button {
         text-decoration: none;
         text-transform: lowercase;
-        color: #253b49;
+        color: ${theme.colors.blue};
         font-family: Montserrat-Regular,sans-serif;
       }
       .red-background {
         background: linear-gradient(90deg,#ed5459,#fd561f);
       }
       .blue-background {
-        background: #253b49;
+        background: ${theme.colors.blue};
       }
       .blue-background .button {
         background: transparent;
@@ -96,8 +97,8 @@ const App = (props) => (
       }
       .blue-background .button:hover {
         background: white;
-        border: 2px solid #253b49;
-        color: #253b49;
+        border: 2px solid ${theme.colors.blue};
+        color: ${theme.colors.blue};
       }
       @font-face {
         font-family: "Montserrat-Regular";
@@ -141,52 +142,52 @@ const App = (props) => (
         font-style: normal;
       }
       .fa {
-        font-family: 'FontAwesome';
+        font-family: "FontAwesome";
       }
       .fa-arrow-left:before {
-        content: '\F177';
+        content: "\F177";
       }
       .fa-linkedin:before {
-        content: '\F0E1';
+        content: "\F0E1";
       }
       .fa-map-marker:before {
-        content: '\F041';
+        content: "\F041";
       }
       .fa-user-circle-o:before {
-        content: '\F2BE';
+        content: "\F2BE";
       }
       .fa-codepen:before {
-        content: '\F1CB';
+        content: "\F1CB";
       }
       .fa-pencil:before {
-        content: '\F040';
+        content: "\F040";
       }
       .fa-address-book:before {
-        content: '\F2BA';
+        content: "\F2BA";
       }
       .fa-empire:before {
-        content: '\F1D1';
+        content: "\F1D1";
       }
       .fa-code:before {
-        content: '\F121';
+        content: "\F121";
       }
       .fa-tablet:before {
-        content: '\F10A';
+        content: "\F10A";
       }
       .fa-desktop:before {
-        content: '\F108';
+        content: "\F108";
       }
       .fa-mobile:before {
-        content: '\F10B';
+        content: "\F10B";
       }
       .fa-ship:before {
-        content: '\F21a';
+        content: "\F21a";
       }
       .fa-seo:before {
-        content: '\F002';
+        content: "\F002";
       }
       .fa-support:before {
-        content: '\F145';
+        content: "\F145";
       }
     `}</style>
   </>

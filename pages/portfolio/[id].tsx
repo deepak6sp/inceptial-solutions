@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import App from '../App';
 import projects from './projects.json';
+import theme from '../../shared/utils/theme';
 
 const Project: React.FC<void> = () => {
   const router = useRouter();
@@ -64,7 +65,7 @@ const Project: React.FC<void> = () => {
         .project-details .right img {
           transform: rotateY(-30deg) rotateX(5deg);
           transform-origin: left bottom;
-          box-shadow: 0 0 10px #253b49;
+          box-shadow: 0 0 10px ${theme.colors.blue};
           border: 0.5em solid #fff;
           border-radius: 10px;
         }
@@ -85,7 +86,7 @@ const Project: React.FC<void> = () => {
         .image-wrapper img {
           margin-top: 100px;
           width: 100%;
-          box-shadow: 0 0 10px #253b49;
+          box-shadow: 0 0 10px ${theme.colors.blue};
           border-radius: 10px;
         }
         .project-name {

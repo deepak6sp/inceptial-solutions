@@ -1,4 +1,10 @@
 [{
+  "slug": "installing-curl-on-linux",
+  "title": "Installing curl on linux",
+  "description": "Installing curl on linux when apt-get and yum is not available.",
+  "date": "Mar 4, 2020",
+  "category": "Devops"
+}, {
   "slug": "docker-commands",
   "title": "Basic Docker Commands",
   "description": "To demonstrate basic docker commands, I will be using nginx container from docker hub.",
