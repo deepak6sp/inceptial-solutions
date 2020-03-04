@@ -5,10 +5,6 @@ import { NavItem } from './types';
 
 const navItems: NavItem[] = [
   {
-    name: "Portfolio",
-    url: "/portfolio",
-  },
-  {
     name: "About",
     url: "/about"
   },
@@ -25,7 +21,7 @@ const Navigation: React.FC<{}>  = () => {
       <nav className="nav">
         <div className="left">
           <Link href="/">
-            <a>Inceptial Solutions</a>
+            <a className='logo'>Inceptial Solutions</a>
           </Link> 
         </div>
         <div className="right">
@@ -45,21 +41,31 @@ const Navigation: React.FC<{}>  = () => {
           </ul>
         </div>
         <style jsx>{`
+          .nav a {
+            font-family: 'Montserrat-Regular';
+            letter-spacing: 2.5px;
+            color: #253b49;
+          }
           .nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 30px 0px;
-            background: linear-gradient(180deg,#ed5459,#fd561f);
+            // border: 1px solid linear-gradient(180deg,#ed5459,#fd561f);
+            box-shadow: 0px 0px 10px 1px #253b49;
             opacity: .9;
             position: fixed;
             top: 0;
             width: 100%;
             z-index: 9999;
+            background: white;
           }
           .nav .active {
-            background: red;
+            background: #253b49;
             padding: 5px;
+          }
+          .nav .active a {
+            color: white;
           }
           .left, .right {
             padding: 0px 10px;
@@ -68,7 +74,6 @@ const Navigation: React.FC<{}>  = () => {
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
-            color: white;
           }
           .right ul {
             display: flex;
@@ -83,8 +88,6 @@ const Navigation: React.FC<{}>  = () => {
           .right ul li a {
             text-decoration: none;
             text-transform: uppercase;
-            color: white;
-            font-family: 'Montserrat-Regular';
           }
           @media(max-width: 768px) {
             .nav {
