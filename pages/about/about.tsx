@@ -7,12 +7,14 @@ const About = () => (
     description="I am a self learner, passionate Full Stack Web Developer having 8 years of experience in IT domain">
     <section className='about-header'>
       <div className="overlay"></div>
-      <h1>A bit about me</h1>
-      <h6>Deepak Prakash 
-        <br/>
-        <span className="fa fa-map-marker fa-lg"></span> 
-        <span>&nbsp;&nbsp;Melbourne,&nbsp; Australia</span>
-      </h6>
+      <div className='header-text'>
+        <h1>A bit about me</h1>
+        <h6>Deepak Prakash 
+          <br/>
+          <span className="fa fa-map-marker fa-lg"></span> 
+          <span>&nbsp;&nbsp;Melbourne,&nbsp; Australia</span>
+        </h6>
+      </div>
     </section>
     <div className='about-wrapper'>
       <div className='about-me'>
@@ -99,31 +101,30 @@ const About = () => (
     </div>
     <style jsx>{`
       .about-header {
-        height: 400px;
+        height: 500px;
         background-image: url(/images/melbourne.jpg);
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: -1;
+        text-align: center;
       }
       .about-header .overlay {
-        position: absolute;
-        top: 0;
-        right: 0;
         width: 100%;
         height: 100%;
         background-color: #000;
         opacity: .7;
         z-index: -1;
       }
+      .header-text {
+        position: absolute;
+        top: 200px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
       .about-header h1 {
         color: white;
         text-align: center;
-        margin-top: 150px;
       }
       .about-header h6 {
         color: white;
@@ -135,13 +136,14 @@ const About = () => (
         font-size: 16px;
       }
       .about-wrapper {
-        margin-top: 200px;
         box-shadow: 0 0 10px ${theme.colors.blue};
-        background: white;
         border-radius: 5px;
-      }
-      .about-me {
-        padding: 30px;
+        background: white;
+        clear: both;
+        max-width: 1100px;
+        margin: -50px auto 100px;
+        position: relative;
+        z-index: 999;
       }
       .about-me .fa-user-circle-o, .things .fa-codepen, .blog .fa-pencil, .contact .fa-address-book {
         text-align: center;
@@ -153,8 +155,8 @@ const About = () => (
       .things .fa-codepen, .contact .fa-address-book {
         color: white;
       }
-      .things, .blog, .contact {
-        padding: 30px;
+      .about-me, .things, .blog, .contact {
+        padding: 80px 30px;
       }
       .things {
         color: white;

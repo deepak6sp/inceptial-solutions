@@ -10,11 +10,10 @@ const Project: React.FC<void> = () => {
   return (
     <App title={router.query.id && project.name} description={router.query.id && project.description}>
       <>
-        <div>
+        <div className='project-article'>
           <Link href='/portfolio'>
             <a className='back-button'><span className='fa fa-arrow-left'></span>&nbsp;Back</a>
           </Link> 
-        </div>
         {
           router.query.id && 
           <>
@@ -48,8 +47,14 @@ const Project: React.FC<void> = () => {
             </div>
           </>
         }
+        </div>
       </>
       <style jsx>{`
+        .project-article {
+          max-width: 1100px;
+          margin: 150px auto;
+          padding: 20px;
+        }
         .project-details {
           display: flex;
           justify-content: space-between;
@@ -96,6 +101,7 @@ const Project: React.FC<void> = () => {
           color: #fd561f;
           text-transform: uppercase;
           font-size: 50px;
+          margin-top: 100px;
         }
         .project-technologies span {
           font-size: 20px;

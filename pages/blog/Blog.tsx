@@ -23,10 +23,14 @@ const Blog = () => (
     <style jsx>{`
       h1 {
         text-align: center;
+        margin-top: 200px;
       }
       .blog-posts {
         display: flex;
         flex-flow: wrap;
+        max-width: 1100px;
+        margin: 50px auto;
+        padding: 20px;
       }
       .blog-posts a {
         display: block;

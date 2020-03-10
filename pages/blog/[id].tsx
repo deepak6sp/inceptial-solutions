@@ -13,7 +13,7 @@ const BlogPost: React.FC<void> = () => {
       title={router.query.id && blogPost.title}
       description={router.query.id && blogPost.description}>
       <>
-        <div>
+        <div className='blog-article'>
           <Link href='/blog'>
             <a className='back-button'><span className='fa fa-arrow-left'></span>&nbsp;Back</a>
           </Link> 
@@ -23,12 +23,18 @@ const BlogPost: React.FC<void> = () => {
       </>
       <style jsx>{`
         h1 {
+          margin-top: 100px;
           text-align: center;
           font-family: 'Raleway-Thin';
           margin-bottom: 100px;
           color: #fd561f;
           text-transform: uppercase;
           font-size: 50px;
+        }
+        .blog-article {
+          max-width: 1100px;
+          margin: 150px auto;
+          padding: 20px;
         }
       
       `}</style>
