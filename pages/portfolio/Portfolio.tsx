@@ -76,7 +76,7 @@ const Projects = () => {
           }
           .projects-header {
             height: 600px;
-            background-image: url(/images/melbourne.jpg);
+            background-image: url(/images/melbourne-night.jpg);
             background-position: top;
             background-repeat: no-repeat;
             background-size: cover;
@@ -85,8 +85,8 @@ const Projects = () => {
           .projects-header .overlay {
             width: 100%;
             height: 100%;
-            background-color: #000;
-            opacity: .7;
+            background-image: linear-gradient(0deg, black, #fd561f);
+            opacity: .8;
             z-index: -1;
           }
           .header-text {
@@ -134,7 +134,7 @@ const Projects = () => {
             text-align: center;
             display: block;
             font-size: 30px;
-            color: #fd561f;
+            color: #1a202c;
             margin-bottom: 30px;
           }
           .projects ul {
