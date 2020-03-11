@@ -59,7 +59,7 @@ const Navigation: React.FC<{}>  = () => {
             top: 0;
             width: 100%;
             z-index: 9999;
-            background: white;
+            background: #F8EEEC;
           }
           .nav .active {
             background: ${theme.colors.blue};
