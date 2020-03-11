@@ -18,8 +18,7 @@ const Projects = () => {
             </div>
           </section>
           <section className='square-boxes'>
-              <span></span>
-              <span></span>
+              <h3>IS</h3>
           </section>
           <section className='projects-body'>
             <span className="fa fa-codepen"></span>
@@ -109,6 +108,12 @@ const Projects = () => {
             position: relative;
             margin-left: 100px;
             box-shadow: 5px 5px 0px 0px #fd561f;
+            color: white;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Montserrat-Thin';
           }
           .projects-body {
             text-align: center;
