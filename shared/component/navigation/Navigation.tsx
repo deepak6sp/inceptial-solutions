@@ -22,7 +22,7 @@ const Navigation: React.FC<{}>  = () => {
       <nav className="nav">
         <div className="left">
           <Link href="/">
-            <a className='logo'>Inceptial Solutions</a>
+            <a className='logo'><span>I</span>nceptial <span>S</span>olutions</a>
           </Link> 
         </div>
         <div className="right">
@@ -67,6 +67,10 @@ const Navigation: React.FC<{}>  = () => {
           }
           .nav .active a {
             color: white;
+          }
+          .nav a span {
+            color: #fd561f;
+            font-size: 30px;
           }
           .left, .right {
             padding: 0px 10px;

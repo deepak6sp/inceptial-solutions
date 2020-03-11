@@ -66,8 +66,16 @@ const Projects = () => {
           </section>
         </div>
         <style jsx>{`
+          @media(max-width: 768px) {
+            .projects-header {
+
+            }
+            .square-boxes {
+              margin-left: 0px!important;
+            }
+          }
           .projects-header {
-            height: 500px;
+            height: 600px;
             background-image: url(/images/melbourne.jpg);
             background-position: top;
             background-repeat: no-repeat;

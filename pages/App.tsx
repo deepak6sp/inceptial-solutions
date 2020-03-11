@@ -19,11 +19,7 @@ const App = (props) => (
     }
     {!props.children && <Portfolio/>}
     <style jsx global>{`
-      @media(max-width: 768px) {
-        .main {
-          padding: 10px;
-        }
-      }
+      @media(max-width: 768px) {}
       body {
         margin: 0;
       }

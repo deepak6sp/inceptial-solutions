@@ -101,7 +101,7 @@ const About = () => (
     </div>
     <style jsx>{`
       .about-header {
-        height: 500px;
+        height: 600px;
         background-image: url(/images/melbourne.jpg);
         background-position: top;
         background-repeat: no-repeat;
@@ -125,12 +125,13 @@ const About = () => (
       .about-header h1 {
         color: white;
         text-align: center;
+        font-family: 'Montserrat-Thin';
       }
       .about-header h6 {
         color: white;
         text-align: center;
         font-size: 30px;
-        font-family: 'Montserrat-Thin';
+        font-family: 'Montserrat-Regular';
       }
       .about-header h6 span {
         font-size: 16px;
